@@ -237,16 +237,7 @@ require('lazy').setup({
   --
   -- Use `opts = {}` to force a plugin to be loaded.
   --
-<<<<<<< Updated upstream
-=======
-  --  This is equivalent to:
-  --    require('Comment').setup({})
-  { 'catppuccin/nvim', name = 'catppuccin', priority = 1000 },
-  --
-  -- "gc" to comment visual regions/lines
-  { 'numToStr/Comment.nvim', opts = {} },
->>>>>>> Stashed changes
-
+  
   -- Here is a more advanced example where we pass configuration
   -- options to `gitsigns.nvim`. This is equivalent to the following Lua:
   --    require('gitsigns').setup({ ... })
